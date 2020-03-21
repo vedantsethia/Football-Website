@@ -1,0 +1,120 @@
+#menu_scroll{
+  top:0;
+  right: 10px;
+  z-index: 3;
+  width: 100%;
+  padding-left: 40px;
+  padding-right: 40px;
+  position: fixed;
+  background-color: #19334d;
+}
+
+#menu_scroll table{
+  table-layout: fixed;
+}
+
+#menu_scroll div{
+  float: right;
+}
+
+#menu_scroll td{
+  text-align: center;
+  padding: 20px 40px;
+}
+
+#menu_scroll a{
+  text-decoration:none;
+  color: white;
+}
+
+#menu_scroll td:hover{
+  background-color: #132639;
+}
+
+#body_background{ 
+    background-image: url('background4.jpg');
+	/* background-color:rgb(170,197,133); */
+    background-repeat: no-repeat;
+    background-attachment:fixed;
+    background-size: cover;
+}
+
+#parallax_container1{
+	background-image: url('beach3.jpg');
+	width:100%;
+	min-height:630px;
+	background-attachment:fixed;
+	 background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+
+.waves_heading{
+	position:relative;
+	top:150px;
+	left:50px;
+}
+
+#best_heading{
+	position:relative;
+	top:400px;
+	left:400px;
+}
+
+input{
+    width: 450px;
+    padding: 12px 20px;
+    margin: 4px 0;
+    box-sizing: border-box;
+}
+
+textarea{
+	width: 450px;
+	padding: 12px 20px;
+	margin: 4px 0;
+	box-sizing: border-box;
+}
+
+input[type="submit"]{
+	width:30%;
+	
+}
+
+#parallax_container2{
+	/* background-image: url('1.jpg'); */
+	width:100%;
+	min-height:630px;
+	background-attachment:fixed;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.inline_elements{
+    display: inline-block;
+    width: 600px;
+    height: 75px;
+    margin: 10px;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+input[type="submit"]{
+    background-color:rgba(77,80,84,1);
+    border: none;
+    color: white;
+	margin-left:270px;
+	
+    text-align: center;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+#table_office{
+	border:solid 4px black;
+	border-radius:20px;
+	padding:20px;
+}
+
+#form_submit{
+	padding-left:30px;
+}

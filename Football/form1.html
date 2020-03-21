@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<title>Subscribe | Home</title>
+<style>
+body {font-family: "Raleway", Arial, sans-serif;background-image:"bgimage.jpg"}
+.w3-row img {margin-bottom: -8px}
+.top{height:50px;width:100%;background-color:black}
+a{width:15%}
+a:link{display:inline-block;color:white;text-decoration:none;background-color:black;padding:15px 25px;text-align:center;}
+a:visited{display:inline-block;color:white;text-decoration:none;background-color:black;padding:15px 25px;text-align:center;}
+a:hover{display:inline-block;color:black;text-decoration:none;background-color:white;padding:15px 25px;text-align:center;font-weight:bold}
+.link2{align:right;margin-left:20%}
+input{width:40%;padding:12px 20px;margin:8px 0px;box-sizing:border-box;border-bottom:2px solid blue;border-radius:4px;}
+select {
+    width: 40%;
+    padding: 16px 20px;
+    border: none;
+    border-radius: 4px;
+    background-color: #f1f1f1;
+	font-family:verdana;
+	font-size:20px;
+}
+#submit{  background-color: #3CBC8D;
+    color: white; border:none}
+#submit:hover{background-color: blue;}
+#radio{width:5%}
+</style>
+<body>
+
+<div class="header" >
+  <header class="top" >
+    <a href="index.html" class="link" style="align:left">Home</a>
+	<a href="form1.html" class="link" style="align:center;margin-left:23%;">The Fantasy Football</a>
+    <a href="#about" class="link2" style="margin-right:1%;">Subscribe</a>
+  </header>
+<center>
+  <div class="bgimage">
+    <div class="half">
+      <img src="bgimage.jpg" style="width:100%" >
+    </div>
+  </div>
+  
+</div>
+<center>
+<footer class="footer" id="about" style="background-color:rgba(204,205,216,0.4)">
+  <h1 style="font-family:Algerian">Subscribe</h1>
+  <img src="player.jpg" class="photo" width="400" height="300">
+  <p>Welcome to an amazing world of Football    </p>
+ <form action="result.php" method="POST">
+	Name <br/>
+	<input type="text" name="name"><br/><br/>
+	E-mail <br/>
+	<input type="email" name="email"><br/><br/>
+	Your Favourite Team<br/>
+	<select name="team">
+		<option value="Arsenal">Arsenal</option>
+		<option value="Barcelona">Barcelona</option>
+		<option value="RealMadrid">Real Madrid</option>
+		<option value="BVBDortmund">BVB Dortmund</option>
+		<option value="ManchesterUnited">Manchester United</option>
+		<option value="Chelsea">Chelsea</option>
+		<option value="Others">Other</option>
+
+	</select><br/><br/>
+	Type of Subscription <br/>
+	<input id="radio" type="radio" name="frequency" value="Daily">Daily
+	<input id="radio" type="radio" name="frequency" value="Weekly">Weekly
+	<input id="radio" type="radio" name="frequency" value="Monthly">Monthly<br/><br/>
+	<input type="submit" id="submit" value="Subscribe" >
+</form>
+
+  <br>
+  
+</footer>
+ </center>
+</body>
+</html>

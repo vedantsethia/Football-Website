@@ -1,0 +1,262 @@
+
+#menu_scroll{
+  top:0;
+  right: 10px;
+  z-index: 3;
+  width: 100%;
+  padding-left: 40px;
+  padding-right: 40px;
+  position: fixed;
+  background-color: #10334d;
+}
+
+#menu_scroll table{
+  table-layout: fixed;
+ }
+
+#menu_scroll div{
+  float: right;
+}
+
+#menu_scroll td{
+  text-align: center;
+  padding: 20px 40px;
+}
+
+#menu_scroll a{
+  text-decoration:none;
+  color: white;
+}
+
+#menu_scroll td:hover{
+  background-color: #132639;
+}
+
+* {box-sizing:border-box}
+body {font-family: Verdana,sans-serif;}
+.mySlides {display:none}
+.mySlides img {border-radius: 9px;}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 100%;
+  position: relative;
+  margin: auto;
+}
+
+/* Number text (1/5 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+  right: 10px;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  height: 13px;
+  width: 13px;
+  margin: 0 2px;
+  background-color: #ffffb3;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+  position:relative;
+  top:-40px;
+}
+
+.active {
+  background-color: #1a1aff;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.8s;
+  -webkit-animation-direction:forwards;
+  -webkit-animation-timing-function:cubic-bezier(0.2,1,0,0.8);
+  animation-name: fade;
+  animation-duration: 1.8s;
+  animation-direction: forwards;
+  animation-timing-function:cubic-bezier(0.2,1,0,0.8);
+}
+
+.gallery_text{
+	position: absolute;
+	top: 310px;
+	left:250px;
+	text-align:center;
+	color:white;
+	font-size:30px;
+}
+
+@-webkit-keyframes fade {
+  0% {opacity: 0} 
+  90% {opacity: 1}
+  100%{opacity: 0}
+}
+
+@keyframes fade {
+  0% {opacity: 0} 
+  90% {opacity: 1}
+  100% {opacity: 0}
+}
+
+.headline{
+	position: absolute;
+	top: 250px;
+	left:300px;
+	
+}
+
+#body_background{ 
+    background-image: url('background3.jpg');
+    background-repeat: no-repeat;
+    background-attachment:fixed;
+    background-size: cover;
+}
+
+#parallax_1{
+	background-image: url('p1.jpg');
+	width:100%;
+	height:680px;
+	background-attachment:fixed;
+	background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#parallax_2{
+	background-image: url('p2.jpg');
+	width:100%;
+	height:2450px;
+	background-attachment:fixed;
+	background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#parallax_3{
+	background-image: url('p6.jpg');
+	width:100%;
+	height:670px;
+	background-attachment:fixed;
+	background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#parallax_4{
+	background-image: url('p12.jpg');
+	width:100%;
+	height:700px;
+	background-attachment:fixed;
+	background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.heading{
+	text-align:center;
+	letter-spacing:1px;
+	/* text-shadow: 1px 1px black; */
+	font-size:30px;
+	font-weight:bold;
+}
+
+.about_text{
+	text-align:center;
+	line-height:1.5;
+	word-spacing:5px;
+	font-family: Arial, Helvetica, sans-serif;
+	padding-left:30px;
+	padding-right:30px;
+	color:rgb(94, 101, 113)
+}
+
+.leader_divisions{
+	background-color:rgba(192,192,192,0.6);
+	width:95%
+}
+
+.leader_names{
+	background-color:rgba(192,192,192,1);
+	width:80%;
+}
+
+.leader_img{
+	float:right;
+	width:15%;
+	height:180px;
+	margin-right:50px;
+}
+
+.leader_text{
+	text-align:left;
+	line-height:1.5;
+	word-spacing:4px;
+	font-family: Arial, Helvetica, sans-serif;
+	color:rgb(64,64,64);
+}
+
+hr{
+	width:80%;
+}
+
+#leader_padding{
+	padding-left:50px;
+}	
+
+
+.product_image{
+	height:150px;
+	width:210px;
+	
+}
+
+.product_text{
+	text-align:center;
+	letter-spacing:2px;
+	font-size:25px;
+	/* font-weight:bold; */
+}	
+
+
+
+#why_us_text{
+	text-align:justify;
+	line-height:1.8;
+	word-spacing:4px;
+	font-family: Arial, Helvetica, sans-serif;
+	padding-left:50px;
+	padding-right:50px;
+}
+
+.p_why_table{
+	padding-left:80px;
+			
+}
+
+.why_us_image{
+	height:200px;
+	width:200px;
+}
+
+.why_img_text{
+	width:350px;
+	text-align:center;
+	font-weight:bold;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+.why_img_textt{
+	width:350px;
+	text-align:center;
+	font-weight:bold;
+	font-family: Arial, Helvetica, sans-serif;
+	position:relative;
+	left:40px;
+}
+
+.why_img_text1{	
+	text-align:center;
+	font-family: Arial, Helvetica, sans-serif;
+}
